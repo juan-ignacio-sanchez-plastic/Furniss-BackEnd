@@ -45,7 +45,7 @@ npm run removeDB
 You will need to have the following environment variables set for the application to run:
 
 ```ini
-SERVER_PORT=Your port to run on
+PORT=Your port to run on
 SERVER_URL=Url of backend file
 CLIENT_URL=Url of frontend application
 

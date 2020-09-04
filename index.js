@@ -6,7 +6,7 @@ const app = express();
 const cors = require("cors");
 const router = require("./router");
 const { sequelize } = require("./models/index");
-const PORT = process.env.SERVER_PORT;
+// const PORT = process.env.PORT;
 const URL = process.env.SERVER_URL;
 const CLIENT_URL = process.env.CLIENT_URL;
 
